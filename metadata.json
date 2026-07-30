@@ -1,0 +1,8 @@
+{
+  "name": "Remix Dashboard Evaluasi KPI Toko",
+  "description": "Dashboard evaluasi KPI \u0026 produktivitas personil toko per AM/AC, analisis gap bobot, radar chart, serta import/export data Excel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

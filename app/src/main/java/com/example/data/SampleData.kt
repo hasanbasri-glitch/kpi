@@ -1,0 +1,203 @@
+package com.example.data
+
+object SampleData {
+    fun getInitialPersonnelList(): List<PersonnelKpiEntity> {
+        return listOf(
+            PersonnelKpiEntity(
+                nik = "21008891",
+                name = "Ahmad Pratama",
+                position = "COS",
+                storeCode = "T001",
+                storeName = "Toko Kemang Raya",
+                ac = "AC Farhan",
+                am = "AM Jakarta Selatan",
+                pwp = 19.5,
+                psm = 18.0,
+                serbaGratis = 34.0,
+                member = 24.5
+            ),
+            PersonnelKpiEntity(
+                nik = "21008892",
+                name = "Siti Nurhaliza",
+                position = "ACOS",
+                storeCode = "T001",
+                storeName = "Toko Kemang Raya",
+                ac = "AC Farhan",
+                am = "AM Jakarta Selatan",
+                pwp = 18.0,
+                psm = 17.5,
+                serbaGratis = 30.0,
+                member = 22.0
+            ),
+            PersonnelKpiEntity(
+                nik = "21008893",
+                name = "Budi Santoso",
+                position = "CREW",
+                storeCode = "T001",
+                storeName = "Toko Kemang Raya",
+                ac = "AC Farhan",
+                am = "AM Jakarta Selatan",
+                pwp = 15.0,
+                psm = 14.0,
+                serbaGratis = 25.0,
+                member = 18.0
+            ),
+            PersonnelKpiEntity(
+                nik = "21008894",
+                name = "Dewi Anggraini",
+                position = "COS",
+                storeCode = "T002",
+                storeName = "Toko Pondok Indah",
+                ac = "AC Farhan",
+                am = "AM Jakarta Selatan",
+                pwp = 17.0,
+                psm = 16.5,
+                serbaGratis = 29.0,
+                member = 21.0
+            ),
+            PersonnelKpiEntity(
+                nik = "21008895",
+                name = "Rian Hidayat",
+                position = "CREW",
+                storeCode = "T002",
+                storeName = "Toko Pondok Indah",
+                ac = "AC Farhan",
+                am = "AM Jakarta Selatan",
+                pwp = 12.0,
+                psm = 11.5,
+                serbaGratis = 18.0,
+                member = 14.0
+            ),
+            PersonnelKpiEntity(
+                nik = "21008896",
+                name = "Eka Lestari",
+                position = "ACOS",
+                storeCode = "T003",
+                storeName = "Toko Bintaro Utama",
+                ac = "AC Handoko",
+                am = "AM Tangerang",
+                pwp = 16.5,
+                psm = 15.0,
+                serbaGratis = 28.0,
+                member = 20.0
+            ),
+            PersonnelKpiEntity(
+                nik = "21008897",
+                name = "Fajar Kusuma",
+                position = "CREW",
+                storeCode = "T003",
+                storeName = "Toko Bintaro Utama",
+                ac = "AC Handoko",
+                am = "AM Tangerang",
+                pwp = 10.0,
+                psm = 9.5,
+                serbaGratis = 15.0,
+                member = 12.0
+            ),
+            PersonnelKpiEntity(
+                nik = "21008898",
+                name = "Gita Savitri",
+                position = "COS",
+                storeCode = "T004",
+                storeName = "Toko Serpong Raya",
+                ac = "AC Handoko",
+                am = "AM Tangerang",
+                pwp = 19.0,
+                psm = 19.0,
+                serbaGratis = 33.5,
+                member = 24.0
+            ),
+            PersonnelKpiEntity(
+                nik = "21008899",
+                name = "Hendra Wijaya",
+                position = "CREW",
+                storeCode = "T004",
+                storeName = "Toko Serpong Raya",
+                ac = "AC Handoko",
+                am = "AM Tangerang",
+                pwp = 8.5,
+                psm = 8.0,
+                serbaGratis = 12.0,
+                member = 10.0
+            ),
+            PersonnelKpiEntity(
+                nik = "21008900",
+                name = "Indah Permata",
+                position = "COS",
+                storeCode = "T005",
+                storeName = "Toko Dago Bandung",
+                ac = "AC Rina",
+                am = "AM Bandung",
+                pwp = 18.5,
+                psm = 18.5,
+                serbaGratis = 32.0,
+                member = 23.5
+            ),
+            PersonnelKpiEntity(
+                nik = "21008901",
+                name = "Joko Susilo",
+                position = "ACOS",
+                storeCode = "T005",
+                storeName = "Toko Dago Bandung",
+                ac = "AC Rina",
+                am = "AM Bandung",
+                pwp = 14.0,
+                psm = 13.5,
+                serbaGratis = 22.0,
+                member = 16.0
+            ),
+            PersonnelKpiEntity(
+                nik = "21008902",
+                name = "Kartika Sari",
+                position = "CREW",
+                storeCode = "T006",
+                storeName = "Toko Buah Batu",
+                ac = "AC Rina",
+                am = "AM Bandung",
+                pwp = 16.0,
+                psm = 15.5,
+                serbaGratis = 26.0,
+                member = 19.0
+            ),
+            PersonnelKpiEntity(
+                nik = "21008903",
+                name = "Lukman Hakim",
+                position = "CREW",
+                storeCode = "T006",
+                storeName = "Toko Buah Batu",
+                ac = "AC Rina",
+                am = "AM Bandung",
+                pwp = 9.0,
+                psm = 7.5,
+                serbaGratis = 14.0,
+                member = 11.0
+            ),
+            PersonnelKpiEntity(
+                nik = "21008904",
+                name = "Maya Putri",
+                position = "COS",
+                storeCode = "T007",
+                storeName = "Toko Cihampelas",
+                ac = "AC Rina",
+                am = "AM Bandung",
+                pwp = 19.8,
+                psm = 19.5,
+                serbaGratis = 34.5,
+                member = 24.8
+            ),
+            PersonnelKpiEntity(
+                nik = "21008905",
+                name = "Novan Saputra",
+                position = "CREW",
+                storeCode = "T007",
+                storeName = "Toko Cihampelas",
+                ac = "AC Rina",
+                am = "AM Bandung",
+                pwp = 11.0,
+                psm = 10.0,
+                serbaGratis = 16.0,
+                member = 13.0
+            )
+        )
+    }
+}
